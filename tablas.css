@@ -1,0 +1,47 @@
+#contenedor-tabla{
+    width: 650px;
+    height: 300px;
+    overflow: auto;
+}
+.tabla {
+    margin-top: 1.7rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 1px 1px #00297b21;
+    overflow: hidden;
+}
+.thead{
+    background:linear-gradient(#c8dce9,#bdd3e1,#bdd3e1,#bdd3e1);
+    color: #002a7b;
+    border-bottom: 2px solid #00297b21;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+}
+th{
+    padding-inline: .8rem;
+}
+
+.tbody{
+    text-align: center;
+    background: #0486cc4c;
+    background:linear-gradient(#fff5d23a,#fff5d22c,#fffae83b);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+}
+
+#cambiar-nota{
+    text-decoration: none;
+    color: #2399cc;
+    font-size: 1.3rem;
+    border: none;
+}
+
+#input-materia{
+    width: 3rem;
+    border: none;
+    background: #2399cc6e;
+    border-radius: 3rem;
+    text-align: center;
+    color: #333;
+    padding-top: .3rem;
+}
